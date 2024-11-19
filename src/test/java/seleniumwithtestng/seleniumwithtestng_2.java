@@ -17,7 +17,7 @@ public class seleniumwithtestng_2 {
 	
 	void navigate() throws InterruptedException {
 		driver.get("https://demo.automationtesting.in/Register.html");
-	    Thread.sleep(2000);
+	    Thread.sleep(3000);
 		System.out.println(driver.getTitle());
 		driver.manage().window().maximize();
 	}
